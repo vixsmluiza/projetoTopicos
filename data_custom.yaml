@@ -1,0 +1,16 @@
+train: /content/data/obj/images  # imagens de treino
+val: /content/data/valid/images  # imagens de validação
+
+nc: 7
+names:
+  0: book_geografia
+  1: book_historia
+  2: caderno
+  3: calculadora
+  4: chaves
+  5: estojo
+  6: pasta
+
+labels:
+    train: /content/data/obj/labels  # rótulos de treino
+    val: /content/data/valid/labels  # rótulos de validação
